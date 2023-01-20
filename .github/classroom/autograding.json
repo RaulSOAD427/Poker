@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Compile test",
+      "setup": "make",
+      "run": "./pa6 Compile",
+      "input": "",
+      "output": "Compile test PASS",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 10
+    },
+    {
+      "name": "Hand test",
+      "setup": "make",
+      "run": "./pa6 Hand",
+      "input": "",
+      "output": "Hand test PASS",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "Deck test",
+      "setup": "make",
+      "run": "./pa6 Deck",
+      "input": "",
+      "output": "Deck test PASS",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 15
+    },
+    {
+      "name": "Game test",
+      "setup": "make",
+      "run": "./pa6 Game",
+      "input": "",
+      "output": "Game test PASS",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 35
+    }
+  ]
+}
